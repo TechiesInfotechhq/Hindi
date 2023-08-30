@@ -30,4 +30,4 @@ const Cart = ({cart, setCart}) => {
   )
 }
 
-export default Cart
+export default Cart;

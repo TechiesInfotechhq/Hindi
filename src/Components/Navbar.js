@@ -54,7 +54,7 @@ const Navbar = ({size, setShow}) => {
         <Link to="dlivery">Delivery</Link>
         <Link to="Pr">Product</Link>
         <Link to="contact">Contact</Link>
-        <Link to="">
+        <Link to="cart">
           <BsCart2 className="navbar-cart-icon" />
         </Link>
         <div className="cart-count" onClick={()=>setShow(false)}>
